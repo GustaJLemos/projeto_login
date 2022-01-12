@@ -1,0 +1,85 @@
+.content {
+  width: 100vw;
+  height: 720px;
+  background: url(../../public/images/bg-content.svg) no-repeat;
+  padding: 16rem 53rem 16rem 53rem;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  background: var(--black-container);
+  padding: 3.2rem 5.5rem;
+  border-radius: 5px;
+}
+
+.title {
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.7rem;
+}
+
+.separator {
+  width: 19rem;
+  height: 0.1rem;
+  background: var(--line-detail);
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: react(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.input {
+  line-height: 0;
+  color: var(--white);
+  font-weight: 400;
+  padding: 0.6rem 0 0.6rem 1.2rem;
+  background: var(--black-container);
+  border: 1px solid var(--border-input);
+  border-radius: 20px;
+}
+
+.email {
+  margin-top: 2.6rem;
+}
+
+.password {
+  margin: 3.2rem 0 2.5rem 0;
+}
+
+.button {
+  margin: 2.5rem 0 3.2rem 0;
+  background: var(--button-enter-room);
+  padding: 1.2rem 6.2rem 1.2rem 6.2rem;
+  border-radius: 10px;
+  color: var(--white);
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-img {
+  margin-left: 0.3rem;
+}
+
+.text-purple {
+  color: var(--purple);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-purple:nth-child(3) {
+  margin-top: -1.5rem;
+}
