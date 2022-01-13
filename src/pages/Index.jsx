@@ -8,7 +8,7 @@ export default function Index() {
         <div className={classes.separator} />
         <form action="#">
           {/* input e label do email */}
-          <label htmlFor="email" className={classes["sr-only"]}>
+          <label htmlFor="email" className="sr-only">
             Email do usuário
           </label>
           <input

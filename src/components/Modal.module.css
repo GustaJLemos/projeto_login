@@ -1,0 +1,203 @@
+.modal-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  background: url(../../public/images/bg-modal-wrapper.svg);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: 5rem;
+}
+
+.modal-wrapper .modal {
+  background: url(../../public/images/bg-modal.svg);
+  border-radius: 10px;
+  width: min(112rem, 90%);
+  height: 76rem;
+  margin: 8rem auto 8.5rem;
+  padding: 2.4rem 8rem 2.4rem 8rem;
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.modal-wrapper .modal .header-modal {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5.5rem;
+}
+
+.modal .header-modal h2 {
+  margin: 0 20rem 0 31.6rem;
+}
+
+.modal .header-modal button {
+  background-color: var(--black-container);
+  cursor: pointer;
+}
+
+input {
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  border-radius: 10px;
+  outline: none;
+  max-width: 22.2rem;
+  background: var(--black-container);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+input::placeholder {
+  color: var(--input-textarea-color);
+}
+
+textarea::placeholder {
+  color: var(--input-textarea-color);
+}
+
+option::placeholder {
+  color: var(--input-textarea-color);
+}
+
+.modal .all-inputs .infos .text-p {
+  display: flex;
+}
+
+.modal .all-inputs .infos .text-p p:nth-child(1) {
+  margin-right: 27.5rem;
+}
+
+.modal .all-inputs .infos .text-p p:nth-child(2) {
+  margin-right: 29.5rem;
+}
+
+.modal .all-inputs .infos .inputs-infos {
+  display: flex;
+}
+
+.modal .all-inputs .infos .inputs-infos .name {
+  margin-right: 14.7rem;
+}
+
+.modal .all-inputs .infos .inputs-infos .age input {
+  margin-right: 14.7rem;
+  width: 22.2rem;
+}
+
+.modal .all-inputs .infos .inputs-infos .age .input-age {
+  margin-bottom: 2.9rem;
+}
+
+.modal .all-inputs .apresentation textarea {
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  resize: none;
+  background: transparent;
+  width: 100%;
+  min-height: 10rem;
+  outline: none;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 3.1rem;
+  color: var(--white);
+}
+
+.modal .all-inputs .states .text-states {
+  display: flex;
+  align-items: center;
+}
+
+.modal .all-inputs .states .text-states p:nth-child(1) {
+  margin-right: 17.2rem;
+}
+
+.modal .all-inputs .states .text-states p:nth-child(2) {
+  margin-right: 20.2rem;
+}
+
+.modal .all-inputs .states .text-states p:nth-child(3) {
+  margin-right: 17rem;
+}
+
+.modal .all-inputs .states .info-states .input-states {
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  width: 20rem;
+  border-radius: 10px;
+  margin-right: 4rem;
+  margin-bottom: 2.1rem;
+  background: var(--black-container);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.modal .all-inputs .states .info-states .input-CEP,
+.modal .all-inputs .states .info-states .input-city {
+  margin-right: 4rem;
+}
+
+.modal .all-inputs .states .text-states1 {
+  display: flex;
+}
+
+.modal .all-inputs .states .text-states1 p:nth-child(1) {
+  margin-right: 20rem;
+}
+
+.modal .all-inputs .states .info-states1 .input-street {
+  margin-right: 4rem;
+  margin-bottom: 5.5rem;
+}
+
+.modal .all-inputs .info-social-media .social-media-p {
+  display: flex;
+}
+
+.modal .all-inputs .info-social-media .social-media-p p:nth-child(1) {
+  margin-right: 14.5rem;
+}
+
+.modal .all-inputs .info-social-media .social-media-p p:nth-child(2) {
+  margin-right: 16rem;
+}
+
+.modal .all-inputs .info-social-media .social-media-p p:nth-child(3) {
+  margin-right: 13rem;
+}
+
+.modal .all-inputs .info-social-media .social-media-p p img {
+  margin-left: 0.8rem;
+}
+
+.modal .all-inputs .info-social-media .inputs-social-media {
+  display: flex;
+  margin-bottom: 4.6rem;
+}
+
+.modal .all-inputs .info-social-media .inputs-social-media .input-linkedin {
+  margin-right: 4rem;
+}
+
+.modal .all-inputs .info-social-media .inputs-social-media .input-twitter {
+  margin-right: 4rem;
+}
+
+.modal .all-inputs .info-social-media .inputs-social-media .input-facebook {
+  margin-right: 4rem;
+}
+
+.modal .all-inputs button {
+  color: var(--white);
+  font-size: 1.4rem;
+  padding: 1.2rem 7.4rem;
+  border-radius: 10px;
+  background: var(--details-text);
+  margin: 0 0 2.4rem 74rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}

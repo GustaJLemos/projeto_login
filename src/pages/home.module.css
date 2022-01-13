@@ -31,12 +31,25 @@ body:global {
   margin-left: 37rem;
 }
 
-.links-header .login {
+.login {
   color: var(--white);
 }
 
-.header .links-header .cadastrar {
+.cadastrar {
   margin-left: 4.5rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  background: var(--black-container);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.cadastrar-active {
+  width: 18.8rem;
+  height: 7.2rem;
+  background: var(--white);
+  color: var(--black-container);
+  font-weight: 600;
 }
 
 .main {
@@ -54,18 +67,18 @@ body:global {
   font-weight: 400;
 }
 
-.container .profile .text-left {
+.text-left {
   display: flex;
   grid-area: left;
 }
 
-.container .profile .text-left .info-profile {
+.info-profile {
   background: var(--black-container);
   padding: 1.8rem 4.3rem 0 4.3rem;
   border-radius: 10px;
 }
 
-.container .profile .text-left .info-profile .avatar {
+.avatar {
   margin: 0 10rem 2rem 10rem;
 }
 
@@ -85,12 +98,12 @@ body:global {
   grid-area: right;
 }
 
-.text-right .social-media {
+.social-media {
   margin-bottom: 2.3rem;
 }
 
-.text-right .social-media,
-.text-right .apresentation {
+.social-media,
+.apresentation {
   background: var(--black-container);
   padding: 2.5rem 3rem 2.5rem 3rem;
   border-radius: 10px;
@@ -98,24 +111,24 @@ body:global {
   width: 90%;
 }
 
-.text-right .social-media .text,
-.text-right .apresentation {
+.text,
+.apresentation {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1.4rem;
 }
 
-.text-right .social-media .list {
+.list {
   list-style: none;
   margin-left: 1.4rem;
 }
 
-.text-right .social-media .list .list-item {
+.social-media .list-item {
   margin: 0 0 1.1rem 1.4rem;
   font-size: 1.4rem;
   font-weight: 500;
 }
 
-.text-right .apresentation .text {
+.text-apresentation {
   margin-bottom: 15rem;
 }

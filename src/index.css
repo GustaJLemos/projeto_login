@@ -15,9 +15,22 @@ html {
   --black-container: #171313;
   --button-enter-room: #211d1d;
   --details-text: #5d00d3;
+  --input-textarea-color: #a2a1a1;
 
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: react(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
