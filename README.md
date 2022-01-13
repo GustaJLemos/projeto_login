@@ -1,6 +1,21 @@
-# projeto_login
+# <h1>projeto_login</h1>
 
 Projeto criado com o intuito de aprender e evoluir!
+
+![image](https://user-images.githubusercontent.com/81194465/149250042-68ccc626-35db-4550-a463-5be57f003bd2.png)
+<hr>
+
+![image](https://user-images.githubusercontent.com/81194465/149250618-e4947638-0c1e-4639-a4d2-a442a852ba14.png)
+<hr>
+<h2>Projeto</h2>
+
+O layout do projeto pode ser encontrado no <a href="https://www.figma.com/file/yvS470sJS8W04JxlhoBAFs/projeto_login_crud?node-id=0%3A1">Figma</a>. Para acessar basta criar uma conta! 
+O layout foi desenvolvido por mim. Após ter feito todo o html e css veio a etapa de passar tudo para o React e com ajuda de um amigo, nós conseguimos! Obrigado!
+
+<h3>Feito com muito ❤ by Gusta Mendes 😋</h3>
+
+<p>obs: para rodar o projeto na sua máquina, basta clonar este repositório e no terminal, rodar o comando "npm start" vai demorar um pouquinho, porém uma hora vai! haha. Após isso, é so abrir o navegador no localhost:3000 e ele irá abrir o projeto</p>
+<hr>
 
 # Getting Started with Create React App
 
